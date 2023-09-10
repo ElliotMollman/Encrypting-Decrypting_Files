@@ -1,1 +1,7 @@
+#This is a python script for encrypting and decrypting files in the directory that this file is stored in using Fernet.
+#The encryption key is created beforehand by the attacker and stored in a file, "thekey.txt", within the folder and 
+#also encrypted during the process.The key I created is "secret_phrase = Elliot27". Unless it is shared to the victim, 
+#the files within that directory will remain encrypted. 
 
+#After receiving the key, the victim runs the decryption file. The process will check each letter of the phrase given 
+#by the user with those of the original key phrase. Additionally, both of the entire phrases much match.
